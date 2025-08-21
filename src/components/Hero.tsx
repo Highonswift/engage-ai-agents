@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
             Turn Cold Calls into
-            <span className="block bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text text-transparent">
+            <span className="block bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
               Warm Opportunities
             </span>
             with AI
@@ -35,6 +35,12 @@ const Hero = () => {
               className="border-white/30 text-primary-foreground hover:bg-white/10 text-lg px-8 py-6 rounded-lg font-semibold transition-spring"
             >
               Get Started
+            </Button>
+            <Button 
+              size="lg"
+              className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-large text-lg px-8 py-6 rounded-lg font-semibold transition-spring hover:scale-105"
+            >
+              Try Now (Malaysia)
             </Button>
           </div>
           

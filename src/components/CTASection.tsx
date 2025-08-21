@@ -11,7 +11,7 @@ const CTASection = () => {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-6xl font-bold text-primary-foreground mb-6">
             Ready to Transform 
-            <span className="block text-orange-300">Your Sales?</span>
+            <span className="block text-yellow-300">Your Sales?</span>
           </h2>
           
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
@@ -25,6 +25,12 @@ const CTASection = () => {
               className="bg-white text-primary hover:bg-white/90 shadow-large text-lg px-8 py-6 rounded-lg font-semibold transition-spring hover:scale-105"
             >
               Schedule a Demo
+            </Button>
+            <Button 
+              size="lg"
+              className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-large text-lg px-8 py-6 rounded-lg font-semibold transition-spring hover:scale-105"
+            >
+              Try Now (Malaysia)
             </Button>
             <Button 
               variant="outline" 
