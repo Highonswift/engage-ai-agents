@@ -10,7 +10,6 @@
     <meta property="og:title" content="AI Outbound Sales Agents | Turn Cold Calls into Warm Opportunities" />
     <meta property="og:description" content="AI-powered sales agents that engage, qualify, and convert leads for B2B & B2C businesses. Increase productivity 3X with intelligent automation." />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@lovable_dev" />
@@ -20,5 +19,34 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <vapi-widget 
+    public-key="2ec0f051-e1d5-45a9-8475-e23b25560d22"
+  assistant-id="1a1b6988-9fd8-4cc4-9c17-1f7145d460da"
+  mode="voice"
+  theme="dark"
+  base-bg-color="#000000"
+  accent-color="#14B8A6"
+  cta-button-color="#000000"
+  cta-button-text-color="#ffffff"
+  border-radius="large"
+  size="full"
+  position="bottom-right"
+  title="Talk with Highonswift"
+  start-button-text="Start"
+  end-button-text="End Call"
+  chat-first-message="Hey, How can I help you today?"
+  chat-placeholder="Type your message..."
+  voice-show-transcript="true"
+  consent-required="true"
+  consent-title="Terms and conditions"
+  consent-storage-key="vapi_widget_consent"
+
+    ></vapi-widget>
+
+<script
+  src="https://unpkg.com/@vapi-ai/client-sdk-react/dist/embed/widget.umd.js"
+  async
+  type="text/javascript"
+></script>
   </body>
 </html>

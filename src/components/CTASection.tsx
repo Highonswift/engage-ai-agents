@@ -26,16 +26,16 @@ const CTASection = () => {
             >
               Schedule a Demo
             </Button>
-            <Button 
+            {/* <Button 
               size="lg"
               className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-large text-lg px-8 py-6 rounded-lg font-semibold transition-spring hover:scale-105"
             >
               Try Now (Malaysia)
-            </Button>
+            </Button> */}
             <Button 
               variant="outline" 
               size="lg"
-              className="border-white/30 text-primary-foreground hover:bg-white/10 text-lg px-8 py-6 rounded-lg font-semibold transition-spring"
+              className="bg-white text-primary hover:bg-white/90 shadow-large text-lg px-8 py-6 rounded-lg font-semibold transition-spring hover:scale-105"
             >
               Contact Us
             </Button>
